@@ -34,47 +34,175 @@
 
     <section id="title" class="slide title" inlist="" rel="schema:hasPart" resource="#title">
       <h2 property="schema:name">Master Thesis Introduction</h2>
+      <h3 property="schema:name">How to get started</h3>
       <ul class="author inline">
           <li class="current"><a href="https://www.rubensworks.net/">Ruben Taelman</a></li>
       </ul>
       <p class="affiliation"><a href="http://idlab.technology/">Ghent University – imec – IDLab, Belgium</a></p>
     </section>
-
-    <section id="start" class="slide" style="background-image: url('img/TODO.jpg')" inlist="" rel="schema:hasPart" resource="#start">
-        <h2 property="schema:name" class="big" style="margin-top: 20px; color: white; text-shadow: 2px 2px black">INTRO</h2>
-        <ul style="color: white; text-shadow: 2px 2px black; font-size: 1.3em">
-            <li>TODO</li>
-        </ul>
-    </section>
 	
     <section id="index" class="slide index" inlist="" rel="schema:hasPart" resource="#index">
       <ul>
-        <li><a href="#index-a">TODO</a></li>
-		<li><a href="#index-b">TODO</a></li>
+        <li><a href="#index-topics">Topics</a></li>
+		<li><a href="#index-starting">Starting points</a></li>
+        <li><a href="#index-next">Next steps</a></li>
       </ul>
     </section>
     
-    <section id="index-a" class="slide index" inlist="" rel="schema:hasPart" resource="#index-a">
+    <section id="index-topics" class="slide index" inlist="" rel="schema:hasPart" resource="#index-topics">
       <ul>
-        <li class="current"><a href="#index-a">TODO</a></li>
-		<li><a href="#index-b">TODO</a></li>
+        <li class="current"><a href="#index-topics">Topics</a></li>
+		<li><a href="#index-starting">Starting points</a></li>
+        <li><a href="#index-next">Next steps</a></li>
       </ul>
     </section>
 	
-    <section id="some-slide" class="slide" inlist="" rel="schema:hasPart" resource="#some-slide">
-      <h2 property="schema:name">TODO: A regular slide</h2>
+    <section id="topics" class="slide" inlist="" rel="schema:hasPart" resource="#topics">
+      <h2 property="schema:name">Topics of students present</h2>
+      <ol>
+          <li><strong>Robin De Baets</strong>: Caching and replication in decentralized Linked Data environments</li>
+          <li><strong>Sammy Delanghe</strong>: Analysis of Property Graphs in SPARQL engines</li>
+          <li><strong>Lynn Penasse</strong>: Performance evaluation of the variety of Linked Data Interfaces</li>
+          <li><strong>Laurens Debackere</strong>: Efficient and secure querying of Linked Data federations</li>
+          <li><strong>Jasper Vrints, Jonas Bovyn</strong>: Query Optimization using WebAssembly</li>
+      </ol>
+    </section>
+    
+    <section id="themses" class="slide" inlist="" rel="schema:hasPart" resource="#themses" style="font-size: 0.85em">
+      <h2 property="schema:name">Overlapping themes within topics</h2>
       <ul>
           <li>
-          	  <h3>A</h3>
-			  <span class="indent">TODO: Description</span>
+          	  <h3>Solid / Decentralization</h3>
+			  <span class="indent">Querying over huge amount of personal data pods</span>
           </li>
-          <li>B</li>
-          <li>C</li>
+          <li>
+          	  <h3>RDF* / SPARQL*</h3>
+			  <span class="indent">Extending the RDF data model with property graph functionality</span>
+          </li>
+          <li>
+          	  <h3>Comunica</h3>
+			  <span class="indent">Research tool to experiment with performance of (client-side) Linked Data query execution</span>
+          </li>
+          <li>
+          	  <h3>Linked Data Fragments</h3>
+			  <span class="indent">Different Linked Data APIs for exposing datasets, to enable querying</span>
+          </li>
+          <li>
+          	  <h3>WebAssembly</h3>
+			  <span class="indent">High-performance browser applications (such as query engines)</span>
+          </li>
       </ul>
     </section>
-	
-    <section id="conclusion" class="slide" inlist="" rel="schema:hasPart" resource="#conclusion">
-      <h2 property="schema:name" class="big">TODO: Conclusion</h2>
+    
+    <section id="index-starting" class="slide index" inlist="" rel="schema:hasPart" resource="#index-starting">
+      <ul>
+        <li><a href="#index-topics">Topics</a></li>
+		<li class="current"><a href="#index-starting">Starting points</a></li>
+        <li><a href="#index-next">Next steps</a></li>
+      </ul>
+    </section>
+    
+    <section id="starting-solid" class="slide" inlist="" rel="schema:hasPart" resource="#starting-solid">
+      <h2 property="schema:name">Solid / Decentralization</h2>
+      <ol>
+          <li><a href="https://ruben.verborgh.org/articles/redecentralizing-the-web/">Re-decentralizing the Web, for good this time</a></li>
+          <li><a href="https://rubensworks.github.io/article-privacy-decentralized/">Towards Querying in Decentralized Environments with Privacy-Preserving Aggregation</a></li>
+          <li><a href="https://arxiv.org/pdf/2005.02239.pdf">Guided Link-Traversal-Based Query Processing</a></li>
+          <li><a href="https://link.springer.com/content/pdf/10.1007/s13222-013-0122-1.pdf">An Overview on Execution Strategies for Linked Data Queries</a></li>
+          <li><a href="https://www.bartbogaerts.eu/articles/2021/005-RuleML-GuidedLink-SubwebSpec/SubwebSpecifications.pdf">Link Traversal with Distributed Subweb Specifications</a></li>
+      </ol>
+    </section>
+    
+    <section id="starting-rdfstar" class="slide" inlist="" rel="schema:hasPart" resource="#starting-rdfstar">
+      <h2 property="schema:name">RDF* / SPARQL*</h2>
+      <ol>
+          <li><a href="https://blog.liu.se/olafhartig/2019/01/10/position-statement-rdf-star-and-sparql-star/">The RDF* and SPARQL* Approach to Annotate Statements in RDF</a></li>
+          <li><a href="https://w3c.github.io/rdf-star/cg-spec/editors_draft.html">RDF-star and SPARQL-star</a></li>
+      </ol>
+    </section>
+    
+    <section id="starting-querying" class="slide" inlist="" rel="schema:hasPart" resource="#starting-querying">
+      <h2 property="schema:name">Comunica</h2>
+      <ol>
+          <li><a href="https://comunica.github.io/Article-ISWC2018-Resource/">Comunica: a Modular SPARQL Query Engine for the Web</a></li>
+          <li><a href="https://comunica.dev/docs/">Comunica Documentation</a></li>
+      </ol>
+    </section>
+    
+    <section id="starting-ldf" class="slide" inlist="" rel="schema:hasPart" resource="#starting-ldf">
+      <h2 property="schema:name">Linked Data Fragments</h2>
+      <ol>
+          <li><a href="https://linkeddatafragments.org/publications/jws2016.pdf">Triple Pattern Fragments</a></li>
+          <li><a href="https://arxiv.org/pdf/1608.08148.pdf">Bindings-Restricted Triple Pattern Fragments</a></li>
+          <li><a href="https://arxiv.org/pdf/1806.00227.pdf">SaGe</a></li>
+          <li><a href="https://epub.wu.ac.at/7428/1/Azzam_etal_2020.pdf">SmartKG</a></li>
+          <li><a href="https://relweb.cs.aau.dk/colchain/files/WiseKG.pdf">WiseKG</a></li>
+          <li><a href="https://preprints.2020.eswc-conferences.org/posters_demos/paper_307.pdf">Towards Cost-model-based Query Execution over Hybrid Linked Data Fragments Interfaces</a></li>
+      </ol>
+    </section>
+    
+    <section id="starting-wasm" class="slide" inlist="" rel="schema:hasPart" resource="#starting-wasm">
+      <h2 property="schema:name">WebAssembly</h2>
+      <ol>
+          <li><a href="https://webassembly.org/">WASM Website</a></li>
+          <li><a href="https://openreview.net/pdf?id=CXLmXMb2TJ">WasmTree: Web Assembly for the Semantic Web</a></li>
+      </ol>
+    </section>
+    
+    <section id="index-next" class="slide index" inlist="" rel="schema:hasPart" resource="#index-next">
+      <ol>
+        <li><a href="#index-topics">Topics</a></li>
+		<li><a href="#index-starting">Starting points</a></li>
+        <li class="current"><a href="#index-next">Next steps</a></li>
+      </ol>
+    </section>
+    
+    <section id="next-steps" class="slide" inlist="" rel="schema:hasPart" resource="#some-slide">
+      <h2 property="schema:name">Next steps</h2>
+      <ul>
+          <li>
+          	  <h3>ASAP: Schedule a meeting with me</h3>
+			  <span class="indent">To discuss the topic in more detail</span>
+              <br />
+              <span class="indent">Make sure you are familiar with the basics around your topic</span>
+          </li>
+          <li>
+          	  <h3><em>Optional</em>: schedule regular meeting</h3>
+			  <span class="indent">Recommended if you procrastinate easily</span>
+          </li>
+          <li>
+          	  <h3>Every Friday: send a status mail</h3>
+			  <span class="indent">Briefly tell me what you did for your thesis in the last week</span>
+          </li>
+      </ul>
+    </section>
+    
+    <section id="index-final" class="slide index" inlist="" rel="schema:hasPart" resource="#index-final">
+      <ol>
+        <li><a href="#index-topics">Topics</a></li>
+		<li><a href="#index-starting">Starting points</a></li>
+        <li><a href="#index-next">Next steps</a></li>
+      </ol>
+    </section>
+
+    <section id="tips" class="slide" inlist="" rel="schema:hasPart" resource="#tips">
+      <h2 property="schema:name">Final remarks</h2>
+      <ul>
+          <li>
+          	  <h3>Don't be afraid to contact me with any problems</h3>
+			  <span class="indent">We're here to help!</span>
+          </li>
+          <li>
+          	  <h3>You must take initiative</h3>
+			  <span class="indent">You are doing the thesis, not the supervisor</span>
+          </li>
+          <li>
+          	  <h3>Contact me</h3>
+			  <span class="indent">Mattermost for small things</span>
+              <br \>
+              <span class="indent">E-mail for everything else</span>
+          </li>
+      </ul>
     </section>
 
     <footer>
